@@ -1,0 +1,16 @@
+Design pattern for car rental system:->
+
+
+1. Factory Pattern
+Usage: To create different types of vehicles dynamically, such as economy, luxury, SUV, etc., based on user input or other conditions.
+Example Use Case: A VehicleFactory that can produce different types of vehicles based on rental category (e.g., LuxuryCar, SUV, Sedan).
+
+
+
+2. Strategy Pattern
+Usage: To define a family of algorithms (e.g., pricing strategies, discount schemes) and make them interchangeable. This helps to implement different strategies for pricing, reservation, or payment.
+Example Use Case: A PricingStrategy interface with different implementations like StandardPricingStrategy, HolidayPricingStrategy, and DiscountPricingStrategy to calculate rental charges.
+
+3. Observer Pattern
+Usage: To notify users or stakeholders about important events, such as when a booking is confirmed, when a vehicle becomes available, or when payment has been processed. It can also be used for real-time updates or notifications.
+Example Use Case: A BookingSystem could notify registered observers (such as email or SMS notification services) when a booking status changes (e.g., confirmation, cancellation).
